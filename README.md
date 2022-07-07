@@ -1,1 +1,0 @@
-ahmet furkan çelik
