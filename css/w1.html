@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <style>
+        nav{
+            text-align: start;
+        }
+        body{ background-color:rgb(243, 181, 172);
+            text-align: center;      
+        }
+        div{
+            background-color: rgb(182, 110, 248);
+            height: 300px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            padding: 30px;
+            color: yellow;            
+        }
+        article{
+            background-color: rgb(182, 110, 248);
+            height: 300px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            padding: 30px;
+            color: yellow;
+            line-height: 300px;
+        }
+        .button{
+            color: blanchedalmond;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+            border-style: ridge ;
+        }
+        .buttonn{
+            background-color: rgb(224, 212, 212);
+            font-weight: 900;
+            color: rgb(49, 78, 78);
+            border-color: rgb(212, 83, 133);
+            border-radius: 10 %;
+            border-style:hidden;
+        }
+        i{
+            color: rgb(255, 255, 0);
+            background-color: blueviolet;
+            font-size: 33px;
+        }
+        a.test:hover {
+        color: red;
+        }
+        #deneme:hover::before{
+            color: gray;
+            transition: 2s;
+            cursor: default; 
+        }
+        #deneme:hover{
+            transform: rotate(360deg);
+            transition: all 1s ease-in-out 0s;
+        }
+        #deneme{
+            background: rgb(172, 172, 27);
+            text-decoration: none;
+            color: #FFF;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border-radius:7px;
+            margin-right: 10px;
+            font-size: 30px;
+            overflow: hidden;
+            position: relative;
+            line-height: 50px;
+            text-align: center;
+            
+        }
+        .sidenav{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            text-decoration:wavy;
+            position:fixed ;
+            overflow-x:hidden ;
+            height: 100%;
+            width: 120px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(252, 252, 99); /* Black */
+            padding-top:400px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }    
+        .header{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+</style>
+    
+
+</head>
+<body>
+    <header>
+        <a href="#">İletişim</a>
+    </header>
+    <nav class="sidenav">
+        <a href="#">Anasayfa</a>
+        <a href="#">Ürünler</a>
+        <a href="#">Hakkımızda</a>
+    </nav>
+    <div>
+        <a href="https://google.com" class="button">Google</a><br><br>
+        <a class="test" href="https://www.github.com/">Github</a>    
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Reiciendis incidunt ex dolorum tenetur.</p>
+        <p>Odit minima earum exercitationem fugit.</p>
+        <button class="buttonn"> <i class="fas fa-cloud"></i></button>
+        
+    </div>
+    <article>
+        <a href="https://www.instagram.com/?hl=tr"><i id="deneme" class="fas fa-heart"></i></a>
+        <i id="deneme" class="fas fa-car"></i>
+        <i id="deneme" class="fas fa-file"></i>
+        <i id="deneme" class="fas fa-bars"></i>
+
+    </article>
+</body>
+</html>
